@@ -15,7 +15,26 @@
       - NECK
   - type: Item
     heldPrefix: CE vulpa plushie
-
+  - type: MeleeWeapon
+    soundHit:
+      collection: PlushieVulpkaninGrowls
+      params:
+        volume: 100
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: VulpkaninScreams
+  - type: EmitSoundOnCollide
+    sound:
+      collection: VulpkaninScreams
+  - type: EmitSoundOnUse
+    sound:
+      collection: VulpkaninScreams
+  - type: EmitSoundOnLand
+    sound:
+      collection: VulpkaninScreams
+  - type: EmitSoundOnActivate
+    sound:
+      collection: VulpkaninScreams
 
 - type: entity
   id: Engie_xeno_plushie
@@ -34,4 +53,30 @@
       - NECK
   - type: Item
     heldPrefix: Engie xeno plushie
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Weapons/Xeno/alien_spitacid.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Weapons/Xeno/alien_spitacid.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Weapons/Xeno/alien_spitacid.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Weapons/Xeno/alien_spitacid.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Weapons/Xeno/alien_spitacid.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Items/Toys/mousesqueek.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/Weapons/Xeno/alien_spitacid.ogg
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: Engie xeno plushie
 
