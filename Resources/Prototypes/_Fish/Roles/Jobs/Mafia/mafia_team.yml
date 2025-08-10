@@ -1,0 +1,171 @@
+# # ===== MAFIA RED =====
+# - type: job
+#   id: MafiaHeadRed
+#   name: job-name-mafia-head-red
+#   description: job-description-mafia-head-red
+#   playTimeTracker: JobMafiaHeadRed
+#   setPreference: false
+#   icon: JobIconBoss
+#   overrideConsoleVisibility: false
+#   supervisors: job-supervisors-mafia
+#   canBeAntag: false
+#   startingGear: MafiaHeadGear
+#   components:
+#     - type: NpcFactionMember
+#       factions:
+#         - MafiaRed
+
+# - type: job
+#   id: MafiaMemberRed
+#   name: job-name-mafia-member-red
+#   description: job-description-mafia-member-red
+#   playTimeTracker: JobMafiaMemberRed
+#   setPreference: false
+#   icon: JobIconMember
+#   overrideConsoleVisibility: false
+#   supervisors: job-supervisors-mafia-head
+#   canBeAntag: false
+#   startingGear: MafiaMemberGear
+#   components:
+#     - type: NpcFactionMember
+#       factions:
+#         - MafiaRed
+
+# # ===== MAFIA BLUE =====
+# - type: job
+#   id: MafiaHeadBlue
+#   name: job-name-mafia-head-blue
+#   description: job-description-mafia-head-blue
+#   playTimeTracker: JobMafiaHeadBlue
+#   setPreference: false
+#   icon: JobIconBoss
+#   overrideConsoleVisibility: false
+#   supervisors: job-supervisors-mafia
+#   canBeAntag: false
+#   startingGear: MafiaHeadGear
+#   components:
+#     - type: NpcFactionMember
+#       factions:
+#         - MafiaBlue
+
+# - type: job
+#   id: MafiaMemberBlue
+#   name: job-name-mafia-member-blue
+#   description: job-description-mafia-member-blue
+#   playTimeTracker: JobMafiaMemberBlue
+#   setPreference: false
+#   icon: JobIconMember
+#   overrideConsoleVisibility: false
+#   supervisors: job-supervisors-mafia-head
+#   canBeAntag: false
+#   startingGear: MafiaMemberGear
+#   components:
+#     - type: NpcFactionMember
+#       factions:
+#         - MafiaBlue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # Mafia Head A
+# - type: job
+#   id: MafiaHeadTeamA
+#   name: job-name-mafia-head-team-a-name
+#   description: job-description-mafia-head-team-a
+#   playTimeTracker: JobMafiaHeadTeamA
+#   setPreference: false
+#   icon: "JobIconUSSPCrew"
+#   supervisors: job-supervisors-mafia
+#   canBeAntag: false
+#   startingGear: MafiaHeadAGear
+#   components:
+#   - type: MindRole
+#     antagPrototype: MafiaRed
+#     exclusiveAntag: true
+#     roleType: TeamAntagonist
+#   - type: NpcFactionMember
+#     factions:
+#     - MafiaA
+#   - type: ShowAntagIcons
+#     faction: MafiaRed
+#     icon: Interface/AntagIcons/mafia_red.png
+#   friendly:
+#   - MafiaA
+#   hostile:
+#   - MafiaB
+
+# # Mafia Team A
+# - type: job
+#   id: MafiaTeamA
+#   name: job-name-mafia-team-a-name
+#   description: job-description-mafia-team-a
+#   playTimeTracker: JobMafiaTeamA
+#   setPreference: false
+#   icon: "JobIconUSSPOfficer"
+#   supervisors: job-supervisors-mafia-head
+#   canBeAntag: false
+#   startingGear: MafiaTeamAGear
+#   components:
+#   - type: MindRole
+#     antagPrototype: MafiaRed
+#     exclusiveAntag: true
+#     roleType: TeamAntagonist
+#   - type: NpcFactionMember
+#     factions:
+#     - MafiaA
+#   - type: ShowAntagIcons
+#     faction: MafiaRed
+#     icon: Interface/AntagIcons/mafia_red.png
+#   friendly:
+#   - MafiaA
+#   hostile:
+#   - MafiaB

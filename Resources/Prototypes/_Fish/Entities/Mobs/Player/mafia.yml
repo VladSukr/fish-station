@@ -1,0 +1,173 @@
+#Mafia Blue
+- type: entity
+  parent: MobHuman
+  id: MobHumanMafiaBlueBase
+  name: mafia blue base
+  suffix: Human, Base
+  components:
+  - type: GhostRole
+    name: mafia blue base
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanMafiaBlueBase
+    name: ghost-role-information-123
+    description: ghost-role-information-123
+    rules: ghost-role-information-123
+    raffle:
+      settings: default
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
+    roleType: TeamAntagonist
+  - type: RandomHumanoidAppearance
+    randomizeName: true
+  - type: RandomMetadata
+  - type: MafiaBlue
+    statusIcon: MafiaBlueFaction
+
+- type: entity
+  parent: MobHumanMafiaBlueBase
+  id: MobHumanMafiaHeadBlue
+  name: mafia blue head
+  suffix: Human, Base
+  components:
+  - type: GhostRole
+    mame: mafia blue head
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanMafiaHeadBlue
+    name: ghost-role-information-123
+    description: ghost-role-information-123
+    rules: ghost-role-information-123
+  - type: MafiaBlue
+    statusIcon: HeadMafiaBlueFaction
+
+- type: entity
+  parent: MobHumanMafiaBlueBase
+  id: MobHumanMafiaAgentBlue
+  name: mafia blue agent
+  suffix: Human, Base
+  components:
+  - type: GhostRole
+    mame: mafia blue agent
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanMafiaAgentBlue
+    name: ghost-role-information-123
+    description: ghost-role-information-123
+    rules: ghost-role-information-123
+
+#Mafia Red
+
+- type: entity
+  parent: MobHuman
+  id: MobHumanMafiaRedBase
+  name: mafia red base
+  suffix: Human, Base
+  components:
+  - type: GhostRole
+    name: mafia red base
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanMafiaRedBase
+    name: ghost-role-information-123
+    description: ghost-role-information-123
+    rules: ghost-role-information-123
+    raffle:
+      settings: default
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
+    roleType: TeamAntagonist
+  - type: RandomHumanoidAppearance
+    randomizeName: true
+  - type: RandomMetadata
+  - type: MafiaRed
+    statusIcon: MafiaRedFaction
+
+- type: entity
+  parent: MobHumanMafiaRedBase
+  id: MobHumanMafiaHeadRed
+  name: mafia red head
+  suffix: Human, base
+  components:
+  - type: GhostRole
+    name: mafia red head
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanMafiaHeadRed
+    name: ghost-role-information-123
+    description: ghost-role-information-123
+    rules: ghost-role-information-123
+  - type: MafiaRed
+    statusIcon: HeadMafiaRedFaction
+
+- type: entity
+  parent: MobHumanMafiaRedBase
+  id: MobHumanMafiaAgentRed
+  name: mafia red agent
+  suffix: Human, base
+  components:
+  - type: GhostRole
+    name: mafia red agent
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanMafiaAgentRed
+    name: ghost-role-information-123
+    description: ghost-role-information-123
+    rules: ghost-role-information-123
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# - type: entity
+#   name: mafiared
+#   parent: MobHuman
+#   suffix: mafiared
+#   id: MobHumanMafiaRed
+#   components:
+#   - type: GhostRole
+#     name: 123
+#     description: 123
+#     rules: 123
+#     raffle:
+#       settings: default
+#     mindRoles:
+#     - MindRoleGhostRoleFreeAgent
+#   - type: GhostTakeoverAvailable
+#   - type: NpcFactionMember
+#     factions:
+#     - MafiaRed
+
+# - type: entity
+#   name: mafiared
+#   parent: MobHuman
+#   suffix: mafiared
+#   id: MobHumanMafiaBlue
+#   components:
+#   - type: GhostRole
+#     name: 123
+#     description: 123
+#     rules: 123
+#     raffle:
+#       settings: default
+#     mindRoles:
+#     - MindRoleGhostRoleFreeAgent
+#   - type: GhostTakeoverAvailable
+#   - type: NpcFactionMember
+#     factions:
+#      - MafiaBlue

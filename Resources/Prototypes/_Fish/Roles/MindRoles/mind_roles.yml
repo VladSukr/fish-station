@@ -1,0 +1,41 @@
+# Mafia Blue
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleHeadMafiaBlue
+  name: Head Mafia Blue Role
+  components:
+  - type: MindRole
+    antagPrototype: HeadMafiaBlue
+    exclusiveAntag: true
+    roleType: TeamAntagonist
+    subtype: role-subtype-head-revolutionary
+
+- type: entity
+  parent: MindRoleHeadMafiaBlue
+  id: MindRoleMafiaBlue
+  name: Mafia Blue Role
+  components:
+  - type: MindRole
+    antagPrototype: MafiaBlue
+    subtype: role-subtype-revolutionary
+
+# Mafia Red
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleHeadMafiaRed
+  name: Head Mafia Red Role
+  components:
+  - type: MindRole
+    antagPrototype: HeadMafiaRed
+    exclusiveAntag: true
+    roleType: TeamAntagonist
+    subtype: role-subtype-head-revolutionary
+
+- type: entity
+  parent: MindRoleHeadMafiaRed
+  id: MindRoleMafiaRed
+  name: Mafia Red Role
+  components:
+  - type: MindRole
+    antagPrototype: MafiaRed
+    subtype: role-subtype-revolutionary

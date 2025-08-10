@@ -1,0 +1,96 @@
+# # Mafia Blue
+# - type: antag
+#   id: HeadMafiaBlue
+#   name: roles-antag-head-mafia-blue-name
+#   statusIcon: MafiaBlueFaction
+#   antagonist: true
+#   setPreference: true
+#   playTimeTracker: JobMafiaHeadBlue
+#   objective: roles-antag-thief-objective
+#   requirements:
+#   - !type:OverallPlaytimeRequirement
+#     time: 36000 # 10h
+#   previewIcon:
+#     sprite: /Textures/_Sunrise/Interface/Misc/antag_preview.rsi
+#     state: head_rev
+
+# - type: antag
+#   id: MafiaBlue
+#   name: roles-antag-mafia-blue-name
+#   statusIcon: MafiaBlueFaction
+#   antagonist: true
+#   setPreference: true
+#   playTimeTracker: JobMafiaBlue
+#   objective: roles-antag-thief-objective
+
+# # Mafia Red
+# - type: antag
+#   id: HeadMafiaRed
+#   name: roles-antag-head-mafia-red-name
+#   statusIcon: MafiaRedFaction
+#   antagonist: true
+#   setPreference: true
+#   playTimeTracker: JobMafiaHeadRed
+#   objective: roles-antag-thief-objective
+#   requirements:
+#   - !type:OverallPlaytimeRequirement
+#     time: 36000 # 10h
+#   previewIcon:
+#     sprite: /Textures/_Sunrise/Interface/Misc/antag_preview.rsi
+#     state: head_rev
+
+# - type: antag
+#   id: MafiaRed
+#   name: roles-antag-mafia-red-name
+#   statusIcon: MafiaRedFaction
+#   antagonist: true
+#   setPreference: true
+#   playTimeTracker: JobMafiaRed
+#   objective: roles-antag-thief-objective
+
+
+# # ===== Mafia RED =====
+# - type: entity
+#   parent: BaseMindRoleAntag
+#   id: MindRoleMafiaRed
+#   name: Red Mafia Member
+#   components:
+#   - type: MindRole
+#     antagPrototype: MafiaRed
+#     exclusiveAntag: true
+#     roleType: TeamAntagonist
+#   - type: ShowAntagIcons
+#     faction: MafiaRed
+#     icon: Interface/AntagIcons/mafia_red.png
+
+# - type: antag
+#   id: MafiaRed
+#   name: Red Mafia
+#   antagonist: true
+#   objectives:
+#     - KillAllMafiaBlue
+#   requirements:
+#     - !type:NoOtherAntagsRequirement
+
+# # ===== Mafia BLUE =====
+# - type: entity
+#   parent: BaseMindRoleAntag
+#   id: MindRoleMafiaBlue
+#   name: Blue Mafia Member
+#   components:
+#   - type: MindRole
+#     antagPrototype: MafiaBlue
+#     exclusiveAntag: true
+#     roleType: TeamAntagonist
+#   - type: ShowAntagIcons
+#     faction: MafiaBlue
+#     icon: Interface/AntagIcons/mafia_blue.png
+
+# - type: antag
+#   id: MafiaBlue
+#   name: Blue Mafia
+#   antagonist: true
+#   objectives:
+#     - KillAllMafiaRed
+#   requirements:
+#     - !type:NoOtherAntagsRequirement

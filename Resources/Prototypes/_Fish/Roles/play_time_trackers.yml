@@ -30,3 +30,15 @@
 
 - type: playTimeTracker
   id: JobCentCommHead
+
+- type: playTimeTracker
+  id: JobMafiaHeadRed
+
+- type: playTimeTracker
+  id: JobMafiaRed
+
+- type: playTimeTracker
+  id: JobMafiaHeadBlue
+
+- type: playTimeTracker
+  id: JobMafiaBlue

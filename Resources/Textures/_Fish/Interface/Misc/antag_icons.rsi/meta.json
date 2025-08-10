@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "mafia created by VladSukr for Fish Station",
+    "size": {
+        "x": 8,
+        "y": 8
+    },
+    "states": [
+        {
+            "name": "mafiared"
+        },
+        {
+            "name": "mafiablue"
+        }
+    ]
+}

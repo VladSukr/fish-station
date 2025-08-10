@@ -1,0 +1,107 @@
+# Resources/Prototypes/_Fish/StatusIcon/faction.yml
+
+- type: factionIcon
+  id: MafiaBlueFaction
+  isShaded: true
+  priority: 11
+  showTo:
+    components:
+      - ShowAntagIcons
+      - MafiaBlue
+  icon:
+    sprite: _Fish/Textures/Interface/Misc/job_icons.rsi
+    state: mafiablue
+
+- type: factionIcon
+  id: HeadMafiaBlueFaction
+  isShaded: true
+  priority: 11
+  showTo:
+    components:
+      - ShowAntagIcons
+      - MafiaBlue
+  icon:
+    sprite: _Fish/Textures/Interface/Misc/job_icons.rsi
+    state: mafiaheadblue
+
+- type: factionIcon
+  id: MafiaRedFaction
+  isShaded: true
+  priority: 11
+  showTo:
+    components:
+      - ShowAntagIcons
+      - MafiaRed
+  icon:
+    sprite: _Fish/Textures/Interface/Misc/job_icons.rsi
+    state: mafiared
+
+- type: factionIcon
+  id: HeadMafiaRedFaction
+  isShaded: true
+  priority: 11
+  showTo:
+    components:
+      - ShowAntagIcons
+      - MafiaRed
+  icon:
+    sprite: _Fish/Textures/Interface/Misc/job_icons.rsi
+    state: mafiaheadred
+
+
+
+
+
+
+
+# #MafiaBlue
+
+# - type: factionIcon
+#   id: HeadMafiaBlueFaction
+#   isShaded: true
+#   priority: 11
+#   showTo:
+#     components:
+#       - ShowAntagIcons
+#       - MafiaBlue
+#   icon:
+#     sprite: _Fish/Textures/Interface/Misc/job_icons.rsi
+#     state: mafiaheadblue
+
+# - type: factionIcon
+#   id: MafiaBlueFaction
+#   isShaded: true
+#   priority: 11
+#   showTo:
+#     components:
+#       - ShowAntagIcons
+#       - MafiaBlue
+#   icon:
+#     sprite: _Fish/Textures/Interface/Misc/job_icons.rsi
+#     state: mafiablue
+
+# #MafiaRed
+
+# - type: factionIcon
+#   id: HeadMafiaRedFaction
+#   isShaded: true
+#   priority: 11
+#   showTo:
+#     components:
+#       - ShowAntagIcons
+#       - MafiaRed
+#   icon:
+#     sprite: _Fish/Textures/Interface/Misc/job_icons.rsi
+#     state: mafiaheadred
+
+# - type: factionIcon
+#   id: MafiaRedFaction
+#   isShaded: true
+#   priority: 11
+#   showTo:
+#     components:
+#       - ShowAntagIcons
+#       - MafiaRed
+#   icon:
+#     sprite: _Fish/Textures/Interface/Misc/job_icons.rsi
+#     state: mafiared
